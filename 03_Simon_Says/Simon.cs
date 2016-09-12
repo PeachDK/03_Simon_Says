@@ -51,8 +51,8 @@ namespace _03_Simon_Says
 
         internal string Echo(string v)
         {
-            string b = v.ToLower();
-            return b;
+            
+            return v = v.ToLower();
 
         }
 
@@ -73,15 +73,15 @@ namespace _03_Simon_Says
 
         internal string Shout(string v)
         {
-            string b = v.ToUpper();
-            return b;
+            
+            return v.ToUpper();
 
         }
 
         internal object Repeat(string v)
         {
-            string b = v;
-            return b + " " + b;
+            
+            return v + " " + v;
 
         }
     }
